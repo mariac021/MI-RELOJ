@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(226, 226, 226);
+  padding: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header h1 {
+  text-transform: uppercase;
+  color: rgb(161, 109, 230);
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75vh;
+}
+
+.container-Tiempo {
+  background-color: #fafafa;
+  width: 100%;
+  padding: 1rem;
+  box-shadow: 0 3px 6px #888888;
+}
+
+.container-Tiempo h2 {
+  text-align: right;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #7a7a7a;
+}
+
+.container-Tiempo h3 {
+  text-align: center;
+  font-size: 7rem;
+  color: rgb(161, 109, 230);
+  font-weight: 400;
+}
+
+.Controles {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Controles button {
+  font-size: 3rem;
+  display: block;
+  border: none;
+  background-color: transparent;
+  color: #7a7a7a;
+}
+
+.timeset-wrapper {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tiempo2 .control {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.tiempo2 .control h2 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #7a7a7a;
+  margin-bottom: 1rem;
+  margin-left: 30%;
+}
+
+.tiempo2 .control h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #7a7a7a;
+}
+
+.tiempo2 .control button {
+  border: none;
+  background-color: transparent;
+  color: rgb(161, 109, 230);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    width: 100%;
+  }
+}
